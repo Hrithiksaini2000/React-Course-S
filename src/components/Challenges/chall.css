@@ -1,0 +1,8 @@
+.main-div{
+    text-align: center;
+}
+.flex{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}

@@ -1,0 +1,49 @@
+.container{
+    max-width: 142rem;
+    margin: 0 auto;
+    padding: 1.6rem 2.4rem;
+}
+.grid{
+    display: grid;
+}
+.grid-3{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+}
+.text-center{
+    text-align: center;
+}
+.m-20{
+    margin-bottom: 20px;
+}
+.grid li.li-style {
+    list-style: none;
+}
+.white-bg{
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.button-background{
+    background: #2d2dd9;
+    padding: 10px;
+}
+.button-background a{
+    color: white;
+    text-decoration: none;
+}
+.detail-padding{
+    padding: 40px 10px;
+}
+
+.success{
+    background-color: rgb(101, 225, 101);
+}
+
+.yellow{
+    background-color: rgb(225, 225, 130);
+}
+
+.rating{
+    padding: 5px 15px;
+    border-radius: 10px;
+}

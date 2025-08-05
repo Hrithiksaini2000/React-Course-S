@@ -1,0 +1,15 @@
+.main-div-center{
+    text-align: center;
+}
+.g-div{
+    background: aquamarine;
+    padding: 50px;
+}
+.p-div{
+    background: blueviolet;
+    padding: 50px;
+}
+.c-div{
+    background: yellow;
+    padding: 50px;
+}
