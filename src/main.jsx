@@ -2,7 +2,8 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 // import { Siblingcomponent, State } from './components/Hooks/State'
 // import { Derivedstate, Maploop } from './components/Challenges/State_Challenge'
-import { LiftingState } from './components/LiftingStateUp/LiftingState'
+// import { LiftingState } from './components/LiftingStateUp/LiftingState'
+import { Short_circuit } from './components/Short_circuit_evaution/Short_circuit'
 // import './index.css'
 // import App from './App.jsx'
 // import Jsx from './components/Jsx/Jsx.jsx'
@@ -43,7 +44,8 @@ createRoot(document.getElementById('root')).render(
     {/* <Siblingcomponent/> */}
     {/* <Maploop/> */}
     {/* <Derivedstate/> */}
-    <LiftingState/>
+    {/* <LiftingState/> */}
+    <Short_circuit/>
   </StrictMode>,
 )
 
