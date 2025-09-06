@@ -3,7 +3,9 @@ import { createRoot } from 'react-dom/client'
 // import { Siblingcomponent, State } from './components/Hooks/State'
 // import { Derivedstate, Maploop } from './components/Challenges/State_Challenge'
 // import { LiftingState } from './components/LiftingStateUp/LiftingState'
-import { Short_circuit } from './components/Short_circuit_evaution/Short_circuit'
+// import { Short_circuit } from './components/Short_circuit_evaution/Short_circuit'
+// import { New_count } from './components/Challenges/Challenge_state_2'
+import { Controlledform } from './components/Controlled_components/Controlled'
 // import './index.css'
 // import App from './App.jsx'
 // import Jsx from './components/Jsx/Jsx.jsx'
@@ -45,7 +47,9 @@ createRoot(document.getElementById('root')).render(
     {/* <Maploop/> */}
     {/* <Derivedstate/> */}
     {/* <LiftingState/> */}
-    <Short_circuit/>
+    {/* <Short_circuit/> */}
+    {/* <New_count/> */}
+    <Controlledform/>
   </StrictMode>,
 )
 
