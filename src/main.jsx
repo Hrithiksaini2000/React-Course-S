@@ -1,12 +1,13 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import { Useffectchallenge } from './components/Challenges/useffectchallenge'
 // import { Siblingcomponent, State } from './components/Hooks/State'
 // import { Derivedstate, Maploop } from './components/Challenges/State_Challenge'
 // import { LiftingState } from './components/LiftingStateUp/LiftingState'
 // import { Short_circuit } from './components/Short_circuit_evaution/Short_circuit'
 // import { New_count } from './components/Challenges/Challenge_state_2'
 // import { Controlledform } from './components/Controlled_components/Controlled'
-import { Reactuseffect } from './components/Hooks/UseEffect/Useffect'
+// import { Reactuseffect } from './components/Hooks/UseEffect/Useffect'
 // import './index.css'
 // import App from './App.jsx'
 // import Jsx from './components/Jsx/Jsx.jsx'
@@ -25,7 +26,6 @@ import { Reactuseffect } from './components/Hooks/UseEffect/Useffect'
 // import { Eventhandle } from './components/EventHandling/Eventhandle'
 // import { Eventprop } from './components/Eventprop/Eventprop'
 // import { Eventpropagation } from './components/Eventprop/Eventpropgation'
-
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -51,7 +51,8 @@ createRoot(document.getElementById('root')).render(
     {/* <Short_circuit/> */}
     {/* <New_count/> */}
     {/* <Controlledform/> */}
-    <Reactuseffect/>
+    {/* <Reactuseffect/> */}
+    <Useffectchallenge/>
   </StrictMode>,
 )
 

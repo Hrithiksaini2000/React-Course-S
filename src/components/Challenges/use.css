@@ -1,0 +1,28 @@
+body{
+    background: #0e2943;
+}
+.main_center{
+    text-align: center;
+}
+.use_heading{
+    color: #fff;
+    font-size: 45px;
+}
+.count_heading{
+    font-size: 25px;
+    color: white;
+    margin-bottom: 15px;
+}
+.incre_btn{
+    background: #57e757;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.name_heading{
+    color: white;
+    margin-bottom: 10px;
+}
