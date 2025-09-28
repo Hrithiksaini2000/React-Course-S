@@ -1,0 +1,11 @@
+section{
+    text-align: center;
+}
+.pokemon_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pokemon_name{
+    flex: 1 1 25%;
+}
