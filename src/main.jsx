@@ -2,8 +2,8 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 // import { Useffectchallenge } from './components/Challenges/useffectchallenge'
 // import { Howtonotfetchapi } from './components/Hooks/UseEffect/Howtonotfetch'
-import { Howtofetchapi } from './components/Hooks/UseEffect/Howtofetchapi'
-// import { Pokemonapi } from './components/Hooks/UseEffect/Pokemon'
+// import { Howtofetchapi } from './components/Hooks/UseEffect/Howtofetchapi'
+import { Pokemonapi } from './components/Hooks/UseEffect/Pokemon'
 // import { Siblingcomponent, State } from './components/Hooks/State'
 // import { Derivedstate, Maploop } from './components/Challenges/State_Challenge'
 // import { LiftingState } from './components/LiftingStateUp/LiftingState'
@@ -57,8 +57,8 @@ createRoot(document.getElementById('root')).render(
     {/* <Reactuseffect/> */}
     {/* <Useffectchallenge/> */}
     {/* <Howtonotfetchapi/> */}
-    <Howtofetchapi/>
-    {/* <Pokemonapi/> */}
+    {/* <Howtofetchapi/> */}
+    <Pokemonapi/>
   </StrictMode>,
 )
 

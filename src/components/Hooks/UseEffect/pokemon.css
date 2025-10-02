@@ -9,3 +9,7 @@ section{
 .pokemon_name{
     flex: 1 1 25%;
 }
+.pokemon_flex{
+    display: flex;
+    justify-content: space-evenly;
+}
