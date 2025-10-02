@@ -2,8 +2,8 @@ import { use, useEffect, useState } from "react"
 
 export const Howtofetchapi=()=>{
     const [apidata,Setapidata]=useState([])
-    const fetchdata= ()=>{
-      fetch(("https://jsonplaceholder.typicode.com/posts"))
+    const fetchdata= async ()=>{
+      await fetch(("https://jsonplaceholder.typicode.com/posts"))
         .then((res)=> res.json())
         .then((data)=>{
             Setapidata(data)
