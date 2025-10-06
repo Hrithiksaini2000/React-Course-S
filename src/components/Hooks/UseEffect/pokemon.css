@@ -2,12 +2,14 @@ section{
     text-align: center;
 }
 .pokemon_img{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
     justify-content: center;
     align-items: center;
 }
 .pokemon_name{
-    flex: 1 1 25%;
+  border: 1px solid lightgrey;
+  padding: 25px;
 }
 .pokemon_flex{
     display: flex;
