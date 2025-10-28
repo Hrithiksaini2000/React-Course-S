@@ -3,7 +3,8 @@ import { createRoot } from 'react-dom/client'
 // import { Useffectchallenge } from './components/Challenges/useffectchallenge'
 // import { Howtonotfetchapi } from './components/Hooks/UseEffect/Howtonotfetch'
 // import { Howtofetchapi } from './components/Hooks/UseEffect/Howtofetchapi'
-import { Pokemonapi } from './components/Hooks/UseEffect/Pokemon'
+// import { Pokemonapi } from './components/Hooks/UseEffect/Pokemon'
+import { Useref } from './components/Hooks/Useref/useref'
 // import { Siblingcomponent, State } from './components/Hooks/State'
 // import { Derivedstate, Maploop } from './components/Challenges/State_Challenge'
 // import { LiftingState } from './components/LiftingStateUp/LiftingState'
@@ -58,7 +59,8 @@ createRoot(document.getElementById('root')).render(
     {/* <Useffectchallenge/> */}
     {/* <Howtonotfetchapi/> */}
     {/* <Howtofetchapi/> */}
-    <Pokemonapi/>
+    {/* <Pokemonapi/> */}
+    <Useref/>
   </StrictMode>,
 )
 
