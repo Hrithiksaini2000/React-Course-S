@@ -4,7 +4,8 @@ import { createRoot } from 'react-dom/client'
 // import { Howtonotfetchapi } from './components/Hooks/UseEffect/Howtonotfetch'
 // import { Howtofetchapi } from './components/Hooks/UseEffect/Howtofetchapi'
 // import { Pokemonapi } from './components/Hooks/UseEffect/Pokemon'
-import { Useref } from './components/Hooks/Useref/useref'
+// import { Useref } from './components/Hooks/Useref/useref'
+import { Forwardref } from './components/Hooks/Useref/Forwardref'
 // import { Siblingcomponent, State } from './components/Hooks/State'
 // import { Derivedstate, Maploop } from './components/Challenges/State_Challenge'
 // import { LiftingState } from './components/LiftingStateUp/LiftingState'
@@ -60,7 +61,8 @@ createRoot(document.getElementById('root')).render(
     {/* <Howtonotfetchapi/> */}
     {/* <Howtofetchapi/> */}
     {/* <Pokemonapi/> */}
-    <Useref/>
+    {/* <Useref/> */}
+    <Forwardref/>
   </StrictMode>,
 )
 
