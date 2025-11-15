@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { Bioprovider } from './components/Hooks/ContextApi'
-import { Home } from './components/Hooks/ContextApi/Home'
+import { About, Home } from './components/Hooks/ContextApi/Home'
 // import { UseID } from './components/Hooks/UseID/Useid'
 // import { Propdrilling } from './components/Hooks/Prop_drilling'
 // import { Useffectchallenge } from './components/Challenges/useffectchallenge'
@@ -71,6 +71,7 @@ createRoot(document.getElementById('root')).render(
     {/* <Propdrilling/> */}
     <Bioprovider>
       <Home/>
+      <About/>
     </Bioprovider>
   </StrictMode>,
 )

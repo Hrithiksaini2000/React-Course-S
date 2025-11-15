@@ -7,3 +7,10 @@ export const Home=()=>{
         <h2>Hello Context API {myvalue} my age is {myage}</h2>
     )
 }
+
+export const About=()=>{
+    const {myvalue, myage} = useContext(Biocontext)
+    return (
+        <h2>Hello Context API {myvalue} my age is {myage}</h2>
+    )
+}
