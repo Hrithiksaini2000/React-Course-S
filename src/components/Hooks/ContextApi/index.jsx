@@ -1,3 +1,4 @@
+import { use } from "react";
 import { createContext, useContext } from "react";
 
 export const Biocontext = createContext()
@@ -15,5 +16,11 @@ export const Bioprovider=({children})=>{
 // Custom Hooks
 export const useBiocontext=()=>{
     const context = useContext(Biocontext)
+    return context
+}
+
+// New use hook introduce in react 19 
+export const useBiocontext2=()=>{
+    const context = use(Biocontext)
     return context
 }
