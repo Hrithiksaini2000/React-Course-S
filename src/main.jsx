@@ -1,7 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { Bioprovider } from './components/Hooks/ContextApi'
-import { About, Custom, Home, Newuse } from './components/Hooks/ContextApi/Home'
+import "./index.css"
+// import { Bioprovider } from './components/Hooks/ContextApi'
+// import { About, Custom, Home, Newuse } from './components/Hooks/ContextApi/Home'
+import { Reducercmp } from './components/Hooks/UseReducer'
 // import { UseID } from './components/Hooks/UseID/Useid'
 // import { Propdrilling } from './components/Hooks/Prop_drilling'
 // import { Useffectchallenge } from './components/Challenges/useffectchallenge'
@@ -69,12 +71,13 @@ createRoot(document.getElementById('root')).render(
     {/* <Forwardref/> */}
     {/* <UseID/> */}
     {/* <Propdrilling/> */}
-    <Bioprovider>
+    {/* <Bioprovider>
       <Home/>
       <About/>
       <Custom/>
       <Newuse/>
-    </Bioprovider>
-  </StrictMode>,
+    </Bioprovider> */}
+    <Reducercmp/>
+  </StrictMode>
 )
 
