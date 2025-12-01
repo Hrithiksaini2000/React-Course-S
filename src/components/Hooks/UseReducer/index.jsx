@@ -2,7 +2,7 @@ import { useReducer } from "react"
 
 export const Reducercmp=()=>{
 
-    const initialState= {
+    const initialState = {
         count:0,
         inc:2,
         dec:2
