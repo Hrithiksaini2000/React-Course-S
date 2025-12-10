@@ -1,8 +1,8 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import "./index.css"
-import { Reactmemo } from './components/Hooks/Memo/Reactmemo'
-import MemoParentComponent from './components/Hooks/Memo/UseMemo'
+import { Reactmemo } from './components/Hooks/Memo/ReactMemo'
+// import MemoParentComponent from './components/Hooks/Memo/UseMemo'
 // import { Bioprovider } from './components/Hooks/ContextApi'
 // import { About, Custom, Home, Newuse } from './components/Hooks/ContextApi/Home'
 // import { Reducercmp } from './components/Hooks/UseReducer'
@@ -80,8 +80,8 @@ createRoot(document.getElementById('root')).render(
       <Newuse/>
     </Bioprovider> */}
     {/* <Reducercmp/> */}
-    {/* <Reactmemo/> */}
-    <MemoParentComponent/>
+    <Reactmemo/>
+    {/* <MemoParentComponent/> */}
   </StrictMode>
 )
 
